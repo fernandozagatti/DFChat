@@ -10,6 +10,23 @@ DFChat is an interactive LLM-based solution for Exploratory Data Analysis (EDA) 
 * Support for multiple LLM models (such as Deepseek, LLaMA, etc.) using [Groq](https://groq.com/)
 * Easy integration with notebooks
 
+## Queries made to compare the tools across all the datasets
+
+* "What are the main characteristics of the dataset?"
+    * Evaluates the ability to identify general information such as the number of columns, data types, number of instances, presence of categorical and numerical variables, among other basic descriptive properties.
+
+* "Are there any missing values? If so, in which columns and how many?"
+    * The aim is to detect missing values in the dataset, identify the affected columns, and quantify the null values, whether in absolute numbers or percentages.
+
+* "Can you identify any outliers in the data?"
+    * Tests statistical methods when dealing with outliers and whether the results presented are consistent.
+    
+* "Generate relevant visualizations that help me understand the distribution of the data"
+    * Evaluates the generation of useful graphs, such as histograms, boxplots, or pairplots, to help understand the distribution of variables.
+
+* "Make a complete EDA of my dataset"
+    * Evaluates the ability to perform a complete exploratory analysis, covering from descriptive statistics to generating visualizations, in a structured and interpretable way.
+
 ## Installation
 
 1. Clone this repository
